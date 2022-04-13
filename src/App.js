@@ -10,17 +10,16 @@ function App() {
   return (
     <>
       <Navbar />
-
       <Home />
-      <hr/>
+      <hr />
       <About />
-      <hr/>
+      <hr />
       <Skills />
-      <hr/>
+      <hr />
       <Experience />
-      <hr/>
+      <hr />
       <Contact />
-      <hr/>
+      <hr />
       <Footer />
     </>
   );

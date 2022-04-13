@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const Project = ({ rep, demo, src, text }) => {
+
   const [projectHovered, setProjectHovered] = useState(false)
 
   return (
@@ -35,7 +36,6 @@ const Project = ({ rep, demo, src, text }) => {
         </div>
       </div>
     </div>
-
   )
 }
 

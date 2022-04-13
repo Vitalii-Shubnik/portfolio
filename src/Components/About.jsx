@@ -17,7 +17,7 @@ const About = () => {
             </p>
           </div>
           <div className='flex flex-wrap items-center text-lg h-full'>
-            {text.split(' ').map((el)=><WordAnimation word={el} />)}
+            {text.split(' ').map((el) => <WordAnimation word={el} />)}
           </div>
         </div>
       </div>

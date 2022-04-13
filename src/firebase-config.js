@@ -1,8 +1,6 @@
-
 import { initializeApp } from "firebase/app"
 import { getFirestore } from "@firebase/firestore"
 import 'firebase/storage'
-
 
 const app = initializeApp({
   apiKey: process.env.REACT_APP_API_KEY,
