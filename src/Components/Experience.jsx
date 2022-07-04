@@ -25,7 +25,7 @@ const Experience = () => {
           <p className='pt-4 text-lg pl-4'>Some of my projects</p>
         </div>
         <div className='grid md:grid-cols-2 xl:grid-cols-3 gap-4'>
-          {projects?.map(proj => <Project src={proj.src} demo={proj.demo} rep={proj.rep} text={proj.text} />)}
+          {projects?.sort((a, b) => b.priority- a.priority ).map(proj => <Project src={proj.src} demo={proj.demo} rep={proj.rep} text={proj.text} />)}
         </div>
       </div>
     </div>
